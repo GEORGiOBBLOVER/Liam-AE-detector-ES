@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Español (ES)" date_format="j F Y" time_format="H:i" decimal_point="," thousands_separator="." language_code="es-ES" text_direction="LTR" addon_id="liam_ae_detector">
+  <phrase title="aed_detection_method_cookie" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Cookie]]></phrase>
+  <phrase title="aed_detection_method_ip" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Ip]]></phrase>
+  <phrase title="aed_detectspamreg_accept" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Accepting, Alter Ego - {method} - Username: {username}, UserId: {user_id}]]></phrase>
+  <phrase title="aed_detectspamreg_group_membership" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Alter Ego is a member of the following groups: {groups}]]></phrase>
+  <phrase title="aed_detectspamreg_is_banned" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Alter Ego {username} is banned.]]></phrase>
+  <phrase title="aed_detectspamreg_moderate" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Moderating, Alter Ego - {method} - Username: {username}, UserId: {user_id}]]></phrase>
+  <phrase title="aed_detectspamreg_reject" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Rejecting, Alter Ego - {method} - Username: {username}], UserId: {user_id}]]></phrase>
+  <phrase title="aed_minutes" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[minutes]]></phrase>
+  <phrase title="aed_old" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[old]]></phrase>
+  <phrase title="aed_thread_message" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[The user @{username} has the following potential alter egos:]]></phrase>
+  <phrase title="aed_thread_message_single" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[It looks like @{username2} is an alter ego of @{username1}...]]></phrase>
+  <phrase title="aed_thread_message_user" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[@{username}
+]]></phrase>
+  <phrase title="aed_thread_message_user_detection" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[@{username}, Triggered detection methods: 
+{methods}
+]]></phrase>
+  <phrase title="aed_thread_message_user_detection_single" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Triggered detection methods: 
+{methods}]]></phrase>
+  <phrase title="aed_thread_message_user_single" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[]]></phrase>
+  <phrase title="aed_thread_subject" addon_id="liam_ae_detector" version_id="10406" version_string="1.4.6"><![CDATA[{username1} & {username2} are alter egos!]]></phrase>
+  <phrase title="aed_thread_subject_count" addon_id="liam_ae_detector" version_id="10408" version_string="1.4.8"><![CDATA[{username} has {count} alter egos!]]></phrase>
+  <phrase title="aed_user_id_not_found" addon_id="liam_ae_detector" version_id="10412" version_string="1.4.12"><![CDATA[The User Id {UserId} is not valid.]]></phrase>
+  <phrase title="liam_aed_check_ips_up_to" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[Check IP's up to]]></phrase>
+  <phrase title="liam_aed_ipcheck" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[Check IP's]]></phrase>
+  <phrase title="option_aed_ReportOnRegister" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Notify front-end on alter-ego registration]]></phrase>
+  <phrase title="option_aed_ReportOnRegister_explain" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[By default the alter-ego will create threads/conversations/reports the first time a user logs in. With this enabled, these notifications will be generated when the user registers.]]></phrase>
+  <phrase title="option_aed_cookie_lifespan" addon_id="liam_ae_detector" version_id="10405" version_string="1.4.5"><![CDATA[Cookie Lifespan]]></phrase>
+  <phrase title="option_aed_cookie_lifespan_explain" addon_id="liam_ae_detector" version_id="10405" version_string="1.4.5"><![CDATA[The Lifespan of the cookie in months.]]></phrase>
+  <phrase title="option_aedcheckbanned" addon_id="liam_ae_detector" version_id="10201" version_string="1.2.1"><![CDATA[Check Banned Users]]></phrase>
+  <phrase title="option_aedcheckbanned_explain" addon_id="liam_ae_detector" version_id="10201" version_string="1.2.1"><![CDATA[If this is ticked, banned users won't be exempt from the alter ego checking.]]></phrase>
+  <phrase title="option_aedcheckips" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[IP Checking]]></phrase>
+  <phrase title="option_aedcheckips_explain" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[]]></phrase>
+  <phrase title="option_aedcreatethread" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Create thread?]]></phrase>
+  <phrase title="option_aedcreatethread_explain" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[If ticked, a thread will be created when an alter ego is detected.]]></phrase>
+  <phrase title="option_aeddebugmessages" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Log debug messages]]></phrase>
+  <phrase title="option_aeddebugmessages_explain" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[If enabled, and the board is in debug mode, then debug messages for this addon will be added to the server error log. This may fill up the error log.]]></phrase>
+  <phrase title="option_aedforumid" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[Forum]]></phrase>
+  <phrase title="option_aedforumid_explain" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[Select the forum you wish to create alter ego threads in.]]></phrase>
+  <phrase title="option_aedpmrecipients" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Recipient usernames]]></phrase>
+  <phrase title="option_aedpmrecipients_explain" addon_id="liam_ae_detector" version_id="10306" version_string="1.3.6"><![CDATA[Enter a list of users that should receive an alter ego conversation. One per line.]]></phrase>
+  <phrase title="option_aedredeploycookie" addon_id="liam_ae_detector" version_id="2" version_string="1.1"><![CDATA[Redeploy Cookie]]></phrase>
+  <phrase title="option_aedredeploycookie_explain" addon_id="liam_ae_detector" version_id="2" version_string="1.1"><![CDATA[If this is enabled, then the cookie will be reset with the new user if an AE is detected. This could be used to catch AE's of the AE, but may cause 2 flags to be made when each user logs out then in.]]></phrase>
+  <phrase title="option_aedregistrationmode" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Registration Mode (general)]]></phrase>
+  <phrase title="option_aedregistrationmode_explain" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[If none is selected, this addon will not affect registrations. <br/>
+If moderate is selected, registrations that have failed the AE check will have to be approved by an administrator. <br/>
+If block is selected, registrations that have failed the AE check will be blocked.]]></phrase>
+  <phrase title="option_aedregistrationmode_group" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Registration Mode (for banned or specific groups)]]></phrase>
+  <phrase title="option_aedregistrationmode_group_explain" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Permits action to be taken if any detected alter ego is banned or a specific group.]]></phrase>
+  <phrase title="option_aedregistrationmode_group_ids" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Groups]]></phrase>
+  <phrase title="option_aedregistrationmode_group_ids_explain" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Comma separated list of group ids]]></phrase>
+  <phrase title="option_aedreport" addon_id="liam_ae_detector" version_id="2" version_string="1.1"><![CDATA[Start report]]></phrase>
+  <phrase title="option_aedreport_explain" addon_id="liam_ae_detector" version_id="2" version_string="1.1"><![CDATA[If checked, a report will be created in the reported items list.]]></phrase>
+  <phrase title="option_aedreport_senddupe" addon_id="liam_ae_detector" version_id="10402" version_string="1.4.2"><![CDATA[Permit Duplicate Report]]></phrase>
+  <phrase title="option_aedreport_senddupe_explain" addon_id="liam_ae_detector" version_id="10402" version_string="1.4.2"><![CDATA[A list of states which are acceptable for duplicate reports to be raised.]]></phrase>
+  <phrase title="option_aedsendpm" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Send PM]]></phrase>
+  <phrase title="option_aedsendpm_explain" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[If enabled, a PM will be sent if an AE is detected]]></phrase>
+  <phrase title="option_aedshowdetectionmethods" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Show Detection Methods]]></phrase>
+  <phrase title="option_aedshowdetectionmethods_explain" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Enable reporting of the exact detection method used to the front-end. Changing this is not retroactive.]]></phrase>
+  <phrase title="option_aeduserid" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[User ID]]></phrase>
+  <phrase title="option_aeduserid_explain" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Enter the user id of the user which will be used to create notifications of an alter-ego. The language of this user will be used. This is required.]]></phrase>
+  <phrase title="option_aedusername" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Username]]></phrase>
+  <phrase title="option_aedusername_explain" addon_id="liam_ae_detector" version_id="10500" version_string="1.5.0"><![CDATA[Enter the username of the user which will be used to create notifications of an alter-ego. This is required.]]></phrase>
+  <phrase title="option_group_aed_debugoptions" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Alter Ego Detector Debugging Options]]></phrase>
+  <phrase title="option_group_aed_debugoptions_description" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Debugging options for the alter ego detector addon. Mainly to make the developer's life easier...]]></phrase>
+  <phrase title="option_group_aed_options" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[Alter Ego Detector Options]]></phrase>
+  <phrase title="option_group_aed_options_description" addon_id="liam_ae_detector" version_id="1" version_string="1.0"><![CDATA[]]></phrase>
+  <phrase title="option_liam_aed_cookiename" addon_id="liam_ae_detector" version_id="10302" version_string="1.3.2"><![CDATA[Cookie Name]]></phrase>
+  <phrase title="option_liam_aed_cookiename_explain" addon_id="liam_ae_detector" version_id="10302" version_string="1.3.2"><![CDATA[Enter the name of the cookie that will be used for alter ego checking.
+<i>Please be aware that changes here will not update existing cookies.</i>]]></phrase>
+  <phrase title="permission_general_aedbypass" addon_id="liam_ae_detector" version_id="3" version_string="1.2"><![CDATA[Bypass Alter Ego Checking]]></phrase>
+  <phrase title="permission_general_aedviewreport" addon_id="liam_ae_detector" version_id="10403" version_string="1.4.2a"><![CDATA[View Alter Ego Report]]></phrase>
+</language>
